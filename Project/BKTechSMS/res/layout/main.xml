@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget48"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@color/background"
+    android:orientation="vertical" >
+    
+    <Button
+        android:background="@drawable/button_menu"
+        android:textColor="@color/text_menu"
+        android:layout_marginTop="80dp"
+        android:id="@+id/contacts"
+        android:layout_width="295dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:text="@string/contact"
+        android:textSize="20sp" 
+        android:onClick="bContactsClick" />
+
+    <Button
+        android:background="@drawable/button_menu"
+        android:textColor="@color/text_menu"
+        android:id="@+id/message"
+        android:layout_width="295dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:text="@string/message"
+        android:textSize="20sp" />
+
+    <Button
+        android:background="@drawable/button_menu"
+        android:textColor="@color/text_menu"
+        android:id="@+id/search"
+        android:layout_width="295dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:text="@string/search"
+        android:textSize="20sp" />
+
+    <Button
+        android:background="@drawable/button_menu"
+        android:textColor="@color/text_menu"
+        android:id="@+id/set"
+        android:layout_width="295dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:text="@string/set"
+        android:textSize="20sp" />
+
+    <Button
+        android:background="@drawable/button_menu"
+        android:textColor="@color/text_menu"
+        android:id="@+id/exit"
+        android:layout_width="295dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:text="@string/exit"
+        android:textSize="20sp" 
+        android:icon="@drawable/ic_action_search"
+        
+        />
+        <!--  -->
+        
+
+</LinearLayout>
